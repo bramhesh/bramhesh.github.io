@@ -1,0 +1,93 @@
+:root {
+	font-size: 20px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	margin: 2vw 4vw;
+
+}
+
+.banner {
+	background-color: dimgrey;
+	color: burlywood;
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	border-radius: 1vw;
+	box-shadow: 5px 6px 16px black;
+	border-style: groove;
+}
+
+.name {  
+	font-size: 1.5rem;
+	font-family: 'Open Sans Condensed', sans-serif;
+	text-align: center;
+	padding: 5vh 1vw 0 1vw;
+	text-shadow: 4px 9px 8px black;
+
+}
+
+.description {
+	text-align: center;
+	font-size: 2rem;
+	font-family: 'Open Sans Condensed', sans-serif;
+	margin-bottom: 5vh; 
+	width: 100%;
+}
+
+.area{
+	display: flex;
+	flex-direction: column;
+	color: burlywood;
+	text-shadow: 3px 2px 20px black;
+   }
+
+.about{
+	margin-top: 5vh;
+}
+
+.footer{
+	color: white;
+	text-align: center;
+	box-shadow: 10px 5px 20px black;
+	margin-top: 5vh;
+}
+
+h4{
+	color: black;
+	font-size: 2rem;
+	text-shadow: 1px 4px 20px black;
+	margin-bottom: 2px;
+}
+
+@media only screen and (max-width: 710px) {
+	body{
+		background-position: top;
+		background-size: cover;
+	}
+	h4{
+		color: ivory;
+	}
+}
+
+@media only screen and (max-width: 525px) {
+	.name{
+		padding: 0;
+	}
+	.description{
+		margin: 0;
+	}
+	h4{
+		color: ivory;
+	}
+}
+
+
