@@ -3,9 +3,11 @@
 }
 
 body {
+  background: url('img.jpg');
+  background-size: cover;  
   margin: 0;
   padding: 0;
-  background-size: cover;
+  
 }
 
 .container {
@@ -55,14 +57,14 @@ body {
 }
 
 .footer{
-	color: white;
+	color: dimgrey;
 	text-align: center;
 	box-shadow: 10px 5px 20px black;
 	margin-top: 5vh;
 }
 
 h4{
-	color: black;
+	color: dimgrey;
 	font-size: 2rem;
 	text-shadow: 1px 4px 20px black;
 	margin-bottom: 2px;
